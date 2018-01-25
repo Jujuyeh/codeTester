@@ -1,0 +1,15 @@
+process P(i::1..10)
+	while(true)
+		//reserva los recursos 2R_1+R_2
+		//usa los recursos
+		//libera los recursos
+	end while
+end process
+
+process Q(i::1..15)
+	while(true)
+		//reserva los recursos R_1+2R_2
+		//usa los recursos
+		//libera los recursos
+	end while
+end process
